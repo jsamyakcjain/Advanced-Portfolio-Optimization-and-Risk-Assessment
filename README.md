@@ -47,7 +47,7 @@ SciPy for scientific computing, including optimization algorithms
 Scikit-learn for linear regression analysis (e.g., CAPM beta calculation)
 
 
-To run the analysis:
+# To run the analysis:
 
 Launch Jupyter Notebook:
 
