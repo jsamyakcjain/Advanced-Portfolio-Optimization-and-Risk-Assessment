@@ -1,6 +1,6 @@
 # Advanced-Portfolio-Optimization-and-Risk-Assessment
 
-This repository contains a Jupyter Notebook (Quant Project.ipynb) that demonstrates a quantitative approach to portfolio construction and risk management. The project involves downloading historical stock data, calculating returns, performing portfolio optimization using various techniques, and assessing portfolio risk using metrics like Value at Risk (VaR) and Conditional Value at Risk (CVaR) through Monte Carlo simulations.
+This repository contains a Jupyter Notebook (Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb) that demonstrates a quantitative approach to portfolio construction and risk management. The project involves downloading historical stock data, calculating returns, performing portfolio optimization using various techniques, and assessing portfolio risk using metrics like Value at Risk (VaR) and Conditional Value at Risk (CVaR) through Monte Carlo simulations.
 
 Features
 Data Acquisition: Downloads historical adjusted close prices for a diversified universe of stocks and ETFs using yfinance.
