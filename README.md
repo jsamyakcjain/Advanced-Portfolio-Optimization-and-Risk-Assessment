@@ -1,19 +1,20 @@
 # Advanced-Portfolio-Optimization-and-Risk-Assessment
 
-This repository contains a Jupyter Notebook (Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb) that demonstrates a quantitative approach to portfolio construction and risk management. The project involves downloading historical stock data, calculating returns, performing portfolio optimization using various techniques, and assessing portfolio risk using metrics like Value at Risk (VaR) and Conditional Value at Risk (CVaR) through Monte Carlo simulations.
+#This repository contains a Jupyter Notebook (Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb) that demonstrates a quantitative approach to portfolio construction and risk management. The project involves downloading historical stock data, calculating returns, performing portfolio optimization using various techniques, and assessing portfolio risk using metrics like Value at Risk (VaR) and Conditional Value at Risk (CVaR) through Monte Carlo simulations.
 
 Features
-Data Acquisition: Downloads historical adjusted close prices for a diversified universe of stocks and ETFs using yfinance.
 
-Portfolio Definition: Defines a structured universe of assets across different sectors (Utilities, Healthcare, Technology, Financials) and market capitalization groups (Large, Mid, Small Cap, and Equity ETFs).
+#Data Acquisition: Downloads historical adjusted close prices for a diversified universe of stocks and ETFs using yfinance.
 
-Returns Calculation: Computes daily log returns for all selected assets.
+#Portfolio Definition: Defines a structured universe of assets across different sectors (Utilities, Healthcare, Technology, Financials) and market capitalization groups (Large, Mid, Small Cap, and Equity ETFs).
 
-Descriptive Statistics: Provides summary statistics for the asset price data.
+#Returns Calculation: Computes daily log returns for all selected assets.
 
-Capital Asset Pricing Model (CAPM) Analysis: Estimates asset betas against a market proxy (e.g., SPY) to understand systematic risk.
+#Descriptive Statistics: Provides summary statistics for the asset price data.
 
-Portfolio Optimization:
+#Capital Asset Pricing Model (CAPM) Analysis: Estimates asset betas against a market proxy (e.g., SPY) to understand systematic risk.
+
+#Portfolio Optimization:
 
 Minimum Volatility Portfolio: Constructs a portfolio designed to minimize overall risk for a given set of assets.
 
@@ -30,6 +31,7 @@ Time Series Analysis: Visualizes cumulative returns for selected large, mid, and
 Detailed Correlation Analysis: Provides correlation heatmaps for average returns across market cap groups and for individual stocks within each market cap group.
 
 Technologies Used
+
 Python 3.x
 
 Pandas for data manipulation and analysis
@@ -47,34 +49,35 @@ SciPy for scientific computing, including optimization algorithms
 Scikit-learn for linear regression analysis (e.g., CAPM beta calculation)
 
 Installation
+
 To set up the project locally, follow these steps:
 
 Clone the repository:
 
+Bash
 git clone https://github.com/YourUsername/Advanced-Portfolio-Optimization-and-Risk-Assessment.git
 cd Advanced-Portfolio-Optimization-and-Risk-Assessment
-
 Create a virtual environment (recommended):
 
+Bash
 python -m venv env
-source env/bin/activate  # On Windows: .\env\Scripts\activate
-
+source env/bin/activate # On Windows: .\env\Scripts\activate
 Install the required packages:
 
+Bash
 pip install -r requirements.txt
-
 Install Jupyter Notebook:
 
+Bash
 pip install notebook
-
 Usage
+
 To run the analysis:
 
 Launch Jupyter Notebook:
 
+Bash
 jupyter notebook
-
-Select the Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb file to open it.
+Open the Notebook: Select the Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb file to open it in your browser.
 
 Run the cells: Execute the cells sequentially to reproduce the analysis and generate the plots.
-
