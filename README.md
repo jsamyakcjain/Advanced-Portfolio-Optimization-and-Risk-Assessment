@@ -74,8 +74,7 @@ Launch Jupyter Notebook:
 
 jupyter notebook
 
-Open Quant Project.ipynb:
-Select the Quant Project.ipynb file from the Jupyter Notebook interface to open it.
+Select the Advanced-Portfolio-Optimization-and-Risk-Assessment.ipynb file to open it.
 
 Run the cells: Execute the cells sequentially to reproduce the analysis and generate the plots.
 
