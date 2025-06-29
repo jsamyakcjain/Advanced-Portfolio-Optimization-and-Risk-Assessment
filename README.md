@@ -16,11 +16,11 @@ This repository contains a Jupyter Notebook (Advanced-Portfolio-Optimization-and
 
 6) Portfolio Optimization:
 
-6.1) Minimum Volatility Portfolio: Constructs a portfolio designed to minimize overall risk for a given set of assets.
+  6.1) Minimum Volatility Portfolio: Constructs a portfolio designed to minimize overall risk for a given set of assets.
 
-6.2) Maximum Sharpe Ratio Portfolio: Identifies the portfolio that maximizes risk-adjusted returns (Sharpe Ratio).
+  6.2) Maximum Sharpe Ratio Portfolio: Identifies the portfolio that maximizes risk-adjusted returns (Sharpe Ratio).
 
-6.3) Efficient Frontier: Plots the efficient frontier, illustrating the trade-off between portfolio risk and return.
+  6.3) Efficient Frontier: Plots the efficient frontier, illustrating the trade-off between portfolio risk and return.
 
 7) Monte Carlo Simulation: Performs Monte Carlo simulations to forecast portfolio returns and estimate potential losses.
 
