@@ -12,23 +12,24 @@ This repository contains a Jupyter Notebook (Advanced-Portfolio-Optimization-and
 
 4) Descriptive Statistics: Provides summary statistics for the asset price data.
 
-5) Capital Asset Pricing Model (CAPM) Analysis: Estimates asset betas against a market proxy (e.g., SPY) to understand systematic risk.
+5) Time Series Analysis: Visualizes cumulative returns for selected large, mid, and small-cap stocks.
+   
+6) Detailed Correlation Analysis: Provides correlation heatmaps for average returns across market cap groups and for individual stocks within each market cap group.
 
-6) Portfolio Optimization:
+7) Capital Asset Pricing Model (CAPM) Analysis: Estimates asset betas against a market proxy (e.g., SPY) to understand systematic risk.
 
-	6.1) Minimum Volatility Portfolio: Constructs a portfolio designed to minimize overall risk for a given set of assets.
+8) Portfolio Optimization:
 
-  	6.2) Maximum Sharpe Ratio Portfolio: Identifies the portfolio that maximizes risk-adjusted returns (Sharpe Ratio).
+	8.1) Minimum Volatility Portfolio: Constructs a portfolio designed to minimize overall risk for a given set of assets.
 
-  	6.3) Efficient Frontier: Plots the efficient frontier, illustrating the trade-off between portfolio risk and return.
+  	8.2) Maximum Sharpe Ratio Portfolio: Identifies the portfolio that maximizes risk-adjusted returns (Sharpe Ratio).
 
-7) Monte Carlo Simulation: Performs Monte Carlo simulations to forecast portfolio returns and estimate potential losses.
+  	8.3) Efficient Frontier: Plots the efficient frontier, illustrating the trade-off between portfolio risk and return.
 
-8) Value at Risk (VaR) and Conditional Value at Risk (CVaR): Calculates Monte Carlo VaR and CVaR to quantify downside risk at specified confidence levels.
+9) Monte Carlo Simulation: Performs Monte Carlo simulations to forecast portfolio returns and estimate potential losses.
 
-9) Time Series Analysis: Visualizes cumulative returns for selected large, mid, and small-cap stocks.
+10) Value at Risk (VaR) and Conditional Value at Risk (CVaR): Calculates Monte Carlo VaR and CVaR to quantify downside risk at specified confidence levels.
 
-10) Detailed Correlation Analysis: Provides correlation heatmaps for average returns across market cap groups and for individual stocks within each market cap group.
 
 # Libraries Used
 
